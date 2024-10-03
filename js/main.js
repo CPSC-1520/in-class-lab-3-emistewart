@@ -18,3 +18,10 @@ resourceShow.addEventListener("mouseout", (event)=>{
     console.log(event.target)
     event.target.classList.remove("fw-bold")
 });
+
+const list = document.querySelector(".list-group-item");
+
+list.addEventListener('click', (event)=>{
+    console.log(event.target)
+    event.target.classList.add("fst-italic")
+})
